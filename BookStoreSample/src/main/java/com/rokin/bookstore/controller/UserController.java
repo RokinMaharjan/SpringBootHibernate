@@ -54,7 +54,7 @@ public class UserController {
 	}
 	
 	
-	@RequestMapping(value="/login")
+	@RequestMapping(value="/login", method=RequestMethod.POST)
 	public String login()
 	{
 		return "login";
